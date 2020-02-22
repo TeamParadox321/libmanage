@@ -58,7 +58,7 @@ export default class Signup extends Component{
                 user_email: this.state.user_email,
                 user_password: this.state.user_password
             };
-            axios.post('http://localhost:4000/users/user_signup', newUser)
+            axios.post('http://localhost:5000/users/user_signup', newUser)
                 .then(res=>{
                     alert(res.data)
                 }).catch(err=>{
