@@ -27,6 +27,5 @@
     "mongoose": "^5.7.14",
     "nodemon": "^2.0.2"
   },
-  "proxy": "http://localhost:4000"
 }
 
